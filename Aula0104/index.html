@@ -11,9 +11,12 @@
     <h1>Boas vindas!</h1>
     <p>Vamos personalizar sua saudação usando JavaScript!</p>
     <div class="saudacao" id="mensagemSaudaca">Olá, visitante!</div>
+    <button onClick="mudarNome()">Personalizar Saudação</button>
   </div>
     <script>
+      function mudarNome() {
         document.getElementById("mensagemSaudaca").textContent = "Olá, Gerson!";
+      }
     </script>
 </body>
 </html>
