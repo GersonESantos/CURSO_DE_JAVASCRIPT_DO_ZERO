@@ -41,20 +41,3 @@ for (let i = 0; i < tarefas.length; i++) {
 }
 }
 
-// function renderizarTarefas() {
-//   //cria uma lista de tarefas vazia
-//   let tarefas = ["Estudar", "Fazer exercícios", "Ler"]
-
-//   //cria um elemento ul
-//   const listaTarefas = document.getElementById("listaTarefas")
-//   //limpa a lista de tarefas
-//   listaTarefas.innerHTML = ""
-
-//   //para cada tarefa na lista de tarefas
-//   tarefas.forEach((tarefa) => {
-//       //cria um novo elemento (li) e insere na (lista ul)
-//       let novaTarefa = document.createElement("li")
-//       novaTarefa.textContent = tarefa
-//       listaTarefas.appendChild(novaTarefa)
-//   })
-// 
