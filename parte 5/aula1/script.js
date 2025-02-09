@@ -49,8 +49,8 @@ function removerTarefa(i) {
 }
 
 function editarTarefa(i) {
-    const inputTarefa = document.getElementById("inputTarefa")
-    inputTarefa.value = tarefas[i]
-    tarefas.splice(i, 1)
-    renderizarTarefas()
-}
+    let tarefaEditada = prompt("Edite a tarefa:")
+    if (tarefaEditada.trim() !== "") {
+        tarefas[i] = tarefaEditada
+        renderizarTarefas()
+    }};
