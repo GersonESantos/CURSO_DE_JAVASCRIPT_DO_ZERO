@@ -12,8 +12,8 @@ function adicionarTarefa() {
 
     }else{  
       //mensagem de tarefa adicionada com sucesso
-      let mensagem = "Tarefa adicionada com sucesso!"
-      document.getElementById("mensagem").textContent = mensagem
+      let mensagemSucesso = "Tarefa adicionada com sucesso!"
+      document.getElementById("mensagem").textContent = mensagemSucesso
       //cria novo item (li) e insere na (lista ul)
       let listaTarefas = document.getElementById("listaTarefas")
       let novaTarefa = document.createElement("li")
