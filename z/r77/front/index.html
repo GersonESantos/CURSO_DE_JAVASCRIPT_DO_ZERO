@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Tarefas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Lista de Tarefas</h1>
+    <p>Adicione suas tarefas!</p>
+
+    <h2>Login</h2>
+    <form id="login-form">
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group password-group">
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+            <i class="fa-solid fa-eye-slash toggle-password"></i>
+        </div>
+        <button type="submit">Entrar</button>
+    </form>
+
+
+    <p id="message"></p>
+    <p id="user-name" class="user-name"></p>
+    <button id="logout-btn" class="logout-btn" style="display: none;">Sair</button>
+
+
+
+
+
+    <input type="text" id="inputTarefa" placeholder="Digite a sua tarefa">
+    <button onclick="adicionarTarefa()">Adicionar Tarefa</button>
+    <button onclick="limparLista()" class="botao_lista">Limpar Tudo</button>
+    <p id="mensagem"></p>
+    <ul id="listaTarefas"></ul>
+  </div>
+  
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
