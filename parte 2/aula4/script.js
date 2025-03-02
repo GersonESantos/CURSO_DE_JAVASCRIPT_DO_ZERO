@@ -6,6 +6,7 @@ function adicionarTarefa() {
   let listaTarefas = document.getElementById("listaTarefas");
   let novaTarefa = document.createElement("li");
   listaTarefas.appendChild(novaTarefa);
+  console.log(listaTarefas);
   novaTarefa.textContent = tarefa;
   inputTarefa.value = "";
       }
